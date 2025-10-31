@@ -1,3 +1,4 @@
 Clothes and Footwear Warehouse
 
-Alibek Makhmujonov
+Author: Alibek Makhmujonov
+```
