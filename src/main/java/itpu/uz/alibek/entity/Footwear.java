@@ -12,4 +12,10 @@ public class Footwear extends Product {
     }
     public int getEuSize() { return euSize; }
     public String getType() { return type; }
+
+    @Override
+    public String toString() {
+        return String.format("Footwear[name='%s', brand='%s', price=%.2f, color='%s', euSize=%d, type='%s']",
+                getName(), getBrand(), getPrice(), getColor(), euSize, type);
+    }
 }

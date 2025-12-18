@@ -15,4 +15,10 @@ public class Apparel extends Product {
     public String getSize() { return size; }
     public String getMaterial() { return material; }
     public String getCategory() { return category; }
+
+    @Override
+    public String toString() {
+        return String.format("Apparel[name='%s', brand='%s', price=%.2f, color='%s', size='%s', material='%s', category='%s']",
+                getName(), getBrand(), getPrice(), getColor(), size, material, category);
+    }
 }

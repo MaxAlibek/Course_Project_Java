@@ -17,4 +17,10 @@ public abstract class Product {
     public String getBrand() { return brand; }
     public double getPrice() { return price; }
     public String getColor() { return color; }
+
+    @Override
+    public String toString() {
+        return String.format("Product[name='%s', brand='%s', price=%.2f, color='%s']",
+                name, brand, price, color);
+    }
 }
